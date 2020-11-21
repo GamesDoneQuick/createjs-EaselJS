@@ -19,6 +19,8 @@
  * This is explained here: https://github.com/rollup/rollup/issues/845#issuecomment-240277194
  */
 
+import Ticker from "@createjs/core/src/utils/Ticker";
+
 // display
 export { default as StageGL } from "./display/StageGL";
 export { default as Stage } from "./display/Stage";
